@@ -11,7 +11,7 @@ It showcases my **resume, academic achievements, employment history, skills, and
 - Contact Information  
 
 ## Live Demo  
-🔗 [View Portfolio](https://Olute-2003.github.io/portfolio/)  
+🔗 [View Portfolio](https://olute-2003.github.io/My-Portfolio/)
 
 ## Author  
 👤 Omoloja Abdurrahman Olaoluwa  
