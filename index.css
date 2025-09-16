@@ -1,0 +1,232 @@
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background: black;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .image {
+        border-radius: 10px;
+    }
+
+    #abt,
+    #emp,
+    #aca,
+    #tech,
+    #con {
+        text-decoration: underline;
+    }
+
+    textarea {
+        resize: none;
+        width: 50%;
+        height: 120px;
+    }
+
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+        vertical-align: middle;
+        height: 200px;
+    }
+
+    .head {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        color: rgb(78, 78, 214);
+        font-weight: bold;
+    }
+
+    .mid {
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        color: rgb(78, 78, 214);
+    }
+
+    #top_left {
+        color: rgb(78, 78, 214);
+    }
+
+    .academic {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    #lang {
+        text-decoration: underline;
+        font-weight: bolder;
+        color: rgb(78, 78, 214);
+    }
+
+    #mother {
+        text-decoration: underline;
+        font-weight: bolder;
+        color: rgb(78, 78, 214);
+    }
+
+    .ea {
+        font-weight: bolder;
+    }
+
+    .other {
+        text-align: left;
+    }
+
+    #comp {
+        font-weight: bolder;
+    }
+
+    #hobbies {
+        font-weight: bolder;
+    }
+
+    .icon1{
+        fill: red;
+        vertical-align: middle;
+    }
+
+    .icon2{
+        fill:blue;
+        vertical-align: middle;
+    }
+
+    .icon3{
+        fill: black;
+        vertical-align: middle;
+    }
+
+    .icon4{
+        fill: green;
+        vertical-align: middle;
+    }
+
+    body{
+        background-color: #F9FAFB;
+        color: #1E293B;
+        font-family: Arial, sans-serif;
+        margin: 0;
+    }
+
+    header{
+        background-color: #2563EB;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    header a{
+        background-color: white;
+        margin: 0 10px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    header a:hover{
+        color: #facc15;
+    }
+
+    .about{
+        background-color: #ffffff;
+        padding: 2rem;
+        margin: 1rem;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .job{
+        background-color: #eff6ff;
+        padding: 2rem;
+        margin: 1rem;
+        border-radius: 10px;
+    }
+
+    .education{
+        background-color: #ffffff;
+        padding: 2rem;
+        margin: 1rem;
+        border-radius: 10px;
+        box-shadow: 0px 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .skill{
+        background-color: #e0f2f3;
+        padding: 2rem;
+        margin: 1rem;
+        border-radius: 10px;
+    }
+
+    .contact{
+        background-color: #fff;
+        padding: 2rem;
+        margin: 1rem;
+        border-radius: 10px;
+    }
+
+    footer{
+        background-color: #1E293B;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    }
+
+    footer a{
+        color: #38bdf8;
+        text-decoration: none;
+    }
+
+    footer a:hover{
+        color: #facc15;
+    }
+
+    /*Dark made*/
+    body.dark-mode {
+    background-color: #0F172A; /* dark slate */
+        color: #F1F5F9; /* light text */
+    }
+
+    body.dark-mode header {
+        background-color: #1E293B;
+    }
+    body.dark-mode header a { color: #E0F2FE; }
+    body.dark-mode header a:hover { color: #38BDF8; }
+
+    body.dark-mode .about,
+    body.dark-mode .education,
+    body.dark-mode .contact {
+        background-color: #1E293B;
+        box-shadow: none;
+    }
+
+    body.dark-mode .job { background-color: #334155; }
+    body.dark-mode .skill { background-color: #1E40AF; }
+
+    body.dark-mode footer {
+        background-color: #000000;
+    }
+    body.dark-mode footer a { color: #38BDF8; }
+    body.dark-mode footer a:hover { color: #FACC15; }
+
+.profile {
+    display: flex;           /* places image and info side by side */
+    align-items: center;     /* vertically aligns them */
+    gap: 20px;               /* space between image and text */
+}
+
+.contact-info {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+.contact-info a {
+    color: #2563EB; /* blue for links */
+    text-decoration: none;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
