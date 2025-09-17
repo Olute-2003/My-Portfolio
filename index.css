@@ -111,9 +111,6 @@
         background-color: #2563EB;
         padding: 1rem;
         text-align: center;
-        position: fixed;
-        top: 1rem;
-        width: 100%;
     }
 
     header a{
